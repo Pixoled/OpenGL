@@ -1,0 +1,13 @@
+
+sudo apt-get update
+sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+sudo apt-get install freeglut3
+
+gcc -o prim prim.c -lGL -lGLU -lglut
+
+# simple
+
+g++ simple.cpp -o firstOpenGlApp -lglut -lGLU -lGL
+
+
+
